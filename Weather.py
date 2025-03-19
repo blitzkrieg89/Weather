@@ -6,7 +6,7 @@ import requests
 st.set_page_config(page_title="Weather Forecasting", layout="wide")
 
 # Load and display background image
-bg_image_path = ""C:\Users\Admin\Downloads\weatherimage.jpeg""
+bg_image_path = "C:\Users\Admin\Downloads\weatherimage.jpeg"
 
 try:
     bg_image = Image.open(bg_image_path)
